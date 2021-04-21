@@ -72,10 +72,11 @@ void Error_Handler(void);
 #define TFT_RST_GPIO_Port GPIOB
 #define ZCD_Pin GPIO_PIN_4
 #define ZCD_GPIO_Port GPIOB
-#define LIGHT_Pin GPIO_PIN_5
-#define LIGHT_GPIO_Port GPIOB
-#define HEATER_Pin GPIO_PIN_6
+#define ZCD_EXTI_IRQn EXTI4_IRQn
+#define HEATER_Pin GPIO_PIN_5
 #define HEATER_GPIO_Port GPIOB
+#define LIGHT_Pin GPIO_PIN_6
+#define LIGHT_GPIO_Port GPIOB
 #define FAN_Pin GPIO_PIN_7
 #define FAN_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
